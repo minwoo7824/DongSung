@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Insert.GeneralInsertActivity"
+    android:background="@color/colorf2f3fA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40px"
+        android:orientation="vertical"
+        android:weightSum="1000">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="96">
+            <Button
+                android:id="@+id/btn_general_insert_back"
+                android:layout_width="194px"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_btn_back"/>
+
+            <Button
+                android:id="@+id/btn_general_insert_list_insert"
+                android:layout_width="194px"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_btn_binso_insert"
+                android:layout_marginRight="234px"
+                android:layout_alignParentRight="true" />
+
+            <Button
+                android:id="@+id/btn_general_insert_save"
+                android:layout_width="194px"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_btn_save"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="904">
+            <LinearLayout
+                android:id="@+id/linear_general_insert_list_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"></LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

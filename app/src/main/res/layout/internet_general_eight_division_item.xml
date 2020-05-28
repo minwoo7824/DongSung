@@ -1,0 +1,1774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1080"
+    android:id="@+id/linear_general_eight_division_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="96"
+        android:id="@+id/linear_general_eight_division_top"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="984"
+        android:layout_margin="4px"
+        android:weightSum="1912">
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="954"
+            android:weightSum="976"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="241"
+                android:orientation="vertical"
+                android:weightSum="241">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="48"
+                    android:weightSum="954">
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_title1"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="218"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:layout_marginLeft="10px"
+                        android:textColor="@color/colorWhite" />
+
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_deceased_name1"
+
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="518"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite"
+                        android:text=""/>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="128"></LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_eight_division_item_arrow1"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="90"
+                        android:background="@drawable/shape_radius_eight_item"
+                        android:src="@drawable/ic_arrow_up_left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="189"
+                    android:weightSum="954">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="145"
+                        android:padding="10px">
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_profile1"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="552">
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_religion_bg1"
+                            android:layout_width="120px"
+                            android:layout_height="100px"
+                            android:scaleType="fitEnd"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:alpha="0.2"
+                            android:layout_marginBottom="10px"
+                            android:layout_marginRight="10px"/>
+
+
+                        <LinearLayout
+                            android:id="@+id/linear_eight_division_item_name_parent1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:weightSum="100"></LinearLayout>
+                    </RelativeLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="253"
+                        android:orientation="vertical"
+                        android:weightSum="188">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc1"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="입 관"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_in1"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc2"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="발 인"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_out1"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc3"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="장 지"
+                                android:includeFontPadding="false"/>
+
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+
+                                android:id="@+id/txt_eight_division_item_location1"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="4"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_eight_visible3"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="244"
+                android:orientation="vertical"
+                android:weightSum="245">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="48"
+                    android:weightSum="954">
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_title3"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="218"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:layout_marginLeft="10px"
+                        android:textColor="@color/colorWhite" />
+
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_deceased_name3"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="518"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="128"></LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_eight_division_item_arrow3"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="90"
+                        android:background="@drawable/shape_radius_eight_item"
+                        android:src="@drawable/ic_arrow_up_left"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="189"
+                    android:weightSum="954">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="145"
+                        android:padding="10px">
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_profile3"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="552">
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_religion_bg3"
+                            android:layout_width="120px"
+                            android:layout_height="100px"
+                            android:scaleType="fitEnd"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:alpha="0.2"
+                            android:layout_marginBottom="10px"
+                            android:layout_marginRight="10px"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_eight_division_item_name_parent3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:weightSum="100"></LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="253"
+                        android:orientation="vertical"
+                        android:weightSum="188">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc7"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="입 관"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_in3"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc8"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="발 인"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_out3"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc9"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="장 지"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+
+                                android:id="@+id/txt_eight_division_item_location3"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_eight_visible5"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="244"
+                android:orientation="vertical"
+                android:weightSum="245">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="48"
+                    android:weightSum="954">
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_title5"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="218"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:layout_marginLeft="10px"
+                        android:textColor="@color/colorWhite" />
+
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_deceased_name5"
+
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="518"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="128"></LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_eight_division_item_arrow5"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="90"
+                        android:background="@drawable/shape_radius_eight_item"
+                        android:src="@drawable/ic_arrow_up_left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="189"
+                    android:weightSum="954">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="145"
+                        android:padding="10px">
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_profile5"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="552">
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_religion_bg5"
+                            android:layout_width="120px"
+                            android:layout_height="100px"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_marginRight="10px"
+                            android:layout_marginBottom="10px"
+                            android:alpha="0.2"
+                            android:scaleType="fitEnd" />
+
+                        <LinearLayout
+                            android:id="@+id/linear_eight_division_item_name_parent5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:paddingLeft="5dp"
+                            android:weightSum="100"></LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="253"
+                        android:orientation="vertical"
+                        android:weightSum="188">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc13"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="입 관"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_in5"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc14"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="발 인"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_out5"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc15"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="장 지"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+
+                                android:id="@+id/txt_eight_division_item_location5"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_eight_visible7"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="244"
+                android:orientation="vertical"
+                android:weightSum="241">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="48"
+                    android:weightSum="954">
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_title7"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="218"
+                        android:gravity="center_vertical"
+                        android:includeFontPadding="false"
+                        android:layout_marginLeft="10px"
+                        android:textColor="@color/colorWhite" />
+
+                    <com.kmw.dongsung.Views.EightDivisionFitTextView
+                        android:maxLines="1"
+                        android:id="@+id/txt_eight_division_item_deceased_name7"
+
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="518"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite" />
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="128"></LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/img_eight_division_item_arrow7"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="90"
+                        android:background="@drawable/shape_radius_eight_item"
+                        android:src="@drawable/ic_arrow_up_left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="189"
+                    android:weightSum="954">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="145"
+                        android:padding="10px">
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_profile7"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:scaleType="fitXY"/>
+                    </LinearLayout>
+
+
+                    <RelativeLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="552">
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_religion_bg7"
+                            android:layout_width="120px"
+                            android:layout_height="100px"
+                            android:scaleType="fitEnd"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentBottom="true"
+                            android:alpha="0.2"
+                            android:layout_marginBottom="10px"
+                            android:layout_marginRight="10px"/>
+
+                        <LinearLayout
+                            android:id="@+id/linear_eight_division_item_name_parent7"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="5dp"
+                            android:weightSum="100"></LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="253"
+                        android:orientation="vertical"
+                        android:weightSum="188">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc19"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="입 관"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_in7"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc20"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="발 인"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:maxLines="1"
+                                android:id="@+id/txt_eight_division_item_check_out7"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="60"
+                            android:weightSum="100">
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_etc21"
+                                android:maxLines="1"
+                                android:layout_width="0px"
+                                android:layout_weight="25"
+                                android:layout_height="match_parent"
+                                android:gravity="center_vertical"
+                                android:textColor="@color/colorWhite"
+                                android:padding="8px"
+                                android:text="장 지"
+                                android:includeFontPadding="false"/>
+                            <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                android:id="@+id/txt_eight_division_item_location7"
+                                android:layout_width="0px"
+                                android:layout_weight="75"
+                                android:layout_height="match_parent"
+                                android:gravity="center"
+                                android:textColor="@color/colorWhite"
+                                android:layout_margin="8px"
+                                android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="4"></LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="954">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="976"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/linear_eight_visible2"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="245"
+                    android:orientation="vertical"
+                    android:weightSum="245">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="48"
+                        android:weightSum="954">
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_title2"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="218"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:layout_marginLeft="10px"
+                            android:textColor="@color/colorWhite" />
+
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_deceased_name2"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="518"
+                            android:includeFontPadding="false"
+                            android:gravity="center"
+                            android:textColor="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="128"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_arrow2"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="90"
+                            android:background="@drawable/shape_radius_eight_item"
+                            android:src="@drawable/ic_arrow_up_left"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="189"
+                        android:weightSum="954">
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:padding="10px">
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_profile2"
+                                android:layout_width="0px"
+                                android:layout_height="match_parent"
+                                android:layout_weight="145"
+                                android:scaleType="fitXY"/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="552">
+
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_religion_bg2"
+                                android:layout_width="120px"
+                                android:layout_height="100px"
+                                android:scaleType="fitEnd"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:alpha="0.2"
+                                android:layout_marginBottom="10px"
+                                android:layout_marginRight="10px"/>
+
+                            <LinearLayout
+                                android:id="@+id/linear_eight_division_item_name_parent2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:weightSum="100"></LinearLayout>
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="253"
+                            android:orientation="vertical"
+                            android:weightSum="188">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc4"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="입 관"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_in2"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:includeFontPadding="false"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc5"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="발 인"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_out2"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:includeFontPadding="false"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc6"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="장 지"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_location2"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:includeFontPadding="false"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear_eight_visible4"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="244"
+                    android:orientation="vertical"
+                    android:weightSum="245">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="48"
+                        android:weightSum="954">
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_title4"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="218"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:layout_marginLeft="10px"
+                            android:textColor="@color/colorWhite" />
+
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_deceased_name4"
+
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="518"
+                            android:includeFontPadding="false"
+                            android:gravity="center"
+                            android:textColor="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="128"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_arrow4"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="90"
+                            android:background="@drawable/shape_radius_eight_item"
+                            android:src="@drawable/ic_arrow_up_left"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="189"
+                        android:weightSum="954">
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:padding="10px">
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_profile4"
+                                android:layout_width="0px"
+                                android:layout_height="match_parent"
+                                android:layout_weight="145"
+                                android:scaleType="fitXY"/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="552">
+
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_religion_bg4"
+                                android:layout_width="120px"
+                                android:layout_height="100px"
+                                android:scaleType="fitEnd"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:alpha="0.2"
+                                android:layout_marginBottom="10px"
+                                android:layout_marginRight="10px"/>
+
+                            <LinearLayout
+                                android:id="@+id/linear_eight_division_item_name_parent4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:weightSum="100"></LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="253"
+                            android:orientation="vertical"
+                            android:weightSum="188">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc10"
+                                    android:layout_width="0px"
+                                    android:layout_height="40dp"
+                                    android:layout_weight="25"
+                                    android:gravity="center_vertical"
+                                    android:includeFontPadding="false"
+                                    android:maxLines="1"
+                                    android:padding="8px"
+                                    android:text="입 관"
+                                    android:textColor="@color/colorWhite" />
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_in4"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:includeFontPadding="false"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc11"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="발 인"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_out4"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc12"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="장 지"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_location4"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_eight_visible6"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="244"
+                    android:orientation="vertical"
+                    android:weightSum="245">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="48"
+                        android:weightSum="954">
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_title6"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="218"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:layout_marginLeft="10px"
+                            android:textColor="@color/colorWhite" />
+
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_deceased_name6"
+
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="518"
+                            android:includeFontPadding="false"
+                            android:gravity="center"
+                            android:textColor="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="128"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_arrow6"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="90"
+                            android:background="@drawable/shape_radius_eight_item"
+                            android:src="@drawable/ic_arrow_up_left"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="189"
+                        android:weightSum="954">
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:padding="10px">
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_profile6"
+                                android:layout_width="0px"
+                                android:layout_height="match_parent"
+                                android:layout_weight="145"
+                                android:scaleType="fitXY"/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="552">
+
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_religion_bg6"
+                                android:layout_width="120px"
+                                android:layout_height="100px"
+                                android:scaleType="fitEnd"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:alpha="0.2"
+                                android:layout_marginBottom="10px"
+                                android:layout_marginRight="10px"/>
+
+                            <LinearLayout
+                                android:id="@+id/linear_eight_division_item_name_parent6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:weightSum="100"></LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="253"
+                            android:orientation="vertical"
+                            android:weightSum="188">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc16"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="입 관"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_in6"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc17"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="발 인"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_out6"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc18"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="장 지"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_location6"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_eight_visible8"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="244"
+                    android:orientation="vertical"
+                    android:weightSum="241">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="48"
+                        android:weightSum="954">
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_title8"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="218"
+                            android:gravity="center_vertical"
+                            android:includeFontPadding="false"
+                            android:layout_marginLeft="10px"
+                            android:textColor="@color/colorWhite" />
+
+                        <com.kmw.dongsung.Views.EightDivisionFitTextView
+                            android:maxLines="1"
+                            android:id="@+id/txt_eight_division_item_deceased_name8"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="518"
+                            android:includeFontPadding="false"
+                            android:gravity="center"
+                            android:textColor="@color/colorWhite" />
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="128"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_eight_division_item_arrow8"
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="90"
+                            android:background="@drawable/shape_radius_eight_item"
+                            android:src="@drawable/ic_arrow_up_left"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="4"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="189"
+                        android:weightSum="954">
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="145"
+                            android:padding="10px">
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_profile8"
+                                android:layout_width="0px"
+                                android:layout_height="match_parent"
+                                android:layout_weight="145"
+                                android:scaleType="fitXY"/>
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="552">
+
+                            <ImageView
+                                android:id="@+id/img_eight_division_item_religion_bg8"
+                                android:layout_width="120px"
+                                android:layout_height="100px"
+                                android:scaleType="fitEnd"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignParentBottom="true"
+                                android:alpha="0.2"
+                                android:layout_marginBottom="10px"
+                                android:layout_marginRight="10px"/>
+
+                            <LinearLayout
+                                android:id="@+id/linear_eight_division_item_name_parent8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="5dp"
+                                android:weightSum="100"></LinearLayout>
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0px"
+                            android:layout_height="match_parent"
+                            android:layout_weight="253"
+                            android:orientation="vertical"
+                            android:weightSum="188">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc22"
+                                    android:layout_width="0px"
+                                    android:layout_height="42dp"
+                                    android:layout_weight="25"
+                                    android:gravity="center_vertical"
+                                    android:includeFontPadding="false"
+                                    android:maxLines="1"
+                                    android:padding="8px"
+                                    android:text="입 관"
+                                    android:textColor="@color/colorWhite" />
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_in8"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc23"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="발 인"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:maxLines="1"
+                                    android:id="@+id/txt_eight_division_item_check_out8"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="4"></LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="60"
+                                android:weightSum="100">
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_etc24"
+                                    android:maxLines="1"
+                                    android:layout_width="0px"
+                                    android:layout_weight="25"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center_vertical"
+                                    android:textColor="@color/colorWhite"
+                                    android:padding="8px"
+                                    android:text="장 지"
+                                    android:includeFontPadding="false"/>
+                                <com.kmw.dongsung.Views.EightDivisionFitTextView
+                                    android:id="@+id/txt_eight_division_item_location8"
+                                    android:layout_width="0px"
+                                    android:layout_weight="75"
+                                    android:layout_height="match_parent"
+                                    android:gravity="center"
+                                    android:textColor="@color/colorWhite"
+                                    android:includeFontPadding="false"
+                                    android:padding="8px"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_eight_division_item_visible"
+                android:layout_width="match_parent"
+                android:layout_height="241px"
+                android:scaleType="fitXY"
+                android:background="@color/colorWhite"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="3px"
+                android:visibility="gone"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136px"
+        android:weightSum="136"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="10"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="126"
+            android:weightSum="1904"
+            android:background="@drawable/img_sanga_version1_item_bg">
+
+            <ImageView
+                android:id="@+id/img_sanga_list_item_first_design_profile"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="109"
+                android:scaleType="fitXY"
+                android:padding="1px"/>
+
+            <com.kmw.dongsung.Views.SangaFitTextView
+                android:id="@+id/txt_sanga_list_item_first_design_title"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="169"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textColor="@color/colorBlack" />
+
+            <com.kmw.dongsung.Views.SangaFitTextView
+                android:id="@+id/txt_sanga_list_item_first_design_dm_name"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="124"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textColor="@color/colorBlack" />
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="344"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:weightSum="344">
+                    <com.kmw.dongsung.Views.SangaFitTextView
+                        android:id="@+id/txt_sanga_list_item_first_design_gender"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="86"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"/>
+
+                    <com.kmw.dongsung.Views.SangaFitTextView
+                        android:id="@+id/txt_sanga_list_item_first_design_age"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="86"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"/>
+
+                    <com.kmw.dongsung.Views.SangaFitTextView
+                        android:id="@+id/txt_sanga_list_item_first_design_religion"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="86"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"/>
+
+                    <com.kmw.dongsung.Views.SangaFitTextView
+                        android:id="@+id/txt_sanga_list_item_first_design_position"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="86"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack" />
+                </LinearLayout>
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_sanga_list_item_first_design_insert_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="344"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_sanga_list_item_first_design_cm_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_sanga_list_item_first_design_check_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="344"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_sanga_list_item_first_design_cm_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_sanga_list_item_first_design_check_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"/>
+            </LinearLayout>
+
+            <com.kmw.dongsung.Views.SangaFitTextView
+                android:id="@+id/txt_sanga_list_item_first_design_location"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="209"
+                android:maxLines="2"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"></com.kmw.dongsung.Views.SangaFitTextView>
+
+            <com.kmw.dongsung.Views.SangaFitTextView
+                android:id="@+id/txt_sanga_list_item_first_design_building"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="129"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"></com.kmw.dongsung.Views.SangaFitTextView>
+
+            <com.kmw.dongsung.Views.SangaFitTextView
+                android:id="@+id/txt_sanga_list_item_first_design_total"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="142"
+                android:maxLines="1"
+                android:includeFontPadding="false"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"></com.kmw.dongsung.Views.SangaFitTextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

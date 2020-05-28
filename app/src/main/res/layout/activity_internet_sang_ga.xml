@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.InternetSangGaActivity"
+    android:focusableInTouchMode="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1080"
+        android:orientation="vertical"
+        android:background="@color/colorf2f3fA">
+        <LinearLayout
+            android:id="@+id/linear_internet_sanga_bg"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="176"
+            android:background="@drawable/img_sanga_version1_bg"
+            android:orientation="vertical"
+            android:weightSum="176">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="100">
+
+                <LinearLayout
+                    android:layout_width="400px"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="48px"></LinearLayout>
+
+                <com.kmw.dongsung.Views.SangaFitTextView
+                    android:id="@+id/txt_internet_sanga_time"
+                    android:layout_width="450px"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center_vertical|right"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginRight="48px"
+                    android:maxLines="1"
+                    android:includeFontPadding="false"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="920"
+            android:layout_marginLeft="8px"
+            android:layout_marginRight="8px"
+            android:layout_marginBottom="10px"
+            android:orientation="vertical"
+            android:weightSum="940">
+            <com.kmw.dongsung.Func.InfiniteFunc.InfiniteViewPager
+                android:id="@+id/view_pager_sang_ga"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="894"
+                android:background="@color/colorf2f3fA">
+            </com.kmw.dongsung.Func.InfiniteFunc.InfiniteViewPager>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1080">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="0px"
+            android:layout_weight="70"
+            android:id="@+id/linear_hover">
+
+            <LinearLayout
+                android:id="@+id/linear_hover_visible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+                android:background="@color/color707070">
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="30">
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_hover_mode_network"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorWhite"
+                        android:text="Mode. Ver 1.2.6  |  Network 정상"
+                        android:gravity="center_vertical"
+                        android:layout_margin="20px"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"/>
+
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_hover_system_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text=" |  update.."
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/colorWhite"
+                        android:gravity="center_vertical"
+                        android:visibility="gone"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="70"
+                    android:gravity="right"
+                    android:layout_margin="10px">
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:id="@+id/btn_hover_logout"
+                        android:text="로그아웃"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/shape_solid_corner"
+                        android:backgroundTint="@color/color98c7ff" />
+
+                    <LinearLayout
+                        android:layout_width="5px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:id="@+id/btn_hover_reboot"
+                        android:text="재부팅"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/shape_solid_corner"
+                        android:backgroundTint="@color/color98c7ff" />
+
+                    <LinearLayout
+                        android:layout_width="5px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:id="@+id/btn_hover_wifi"
+                        android:text="WIFI"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/shape_solid_corner"
+                        android:backgroundTint="@color/color98c7ff" />
+
+                    <LinearLayout
+                        android:layout_width="5px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:id="@+id/btn_hover_auto"
+                        android:text="자동모드"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/shape_solid_corner"
+                        android:backgroundTint="@color/color98c7ff" />
+
+                    <LinearLayout
+                        android:layout_width="5px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:id="@+id/btn_hover_manual"
+                        android:text="수동모드"
+                        android:textColor="@color/colorWhite"
+                        android:background="@drawable/shape_solid_corner"
+                        android:backgroundTint="@color/color98c7ff" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_hover_gone"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1010"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:weightSum="100"
+        android:gravity="center"
+        android:elevation="5px"
+        android:id="@+id/linear_popup_visible"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="40"
+            android:layout_height="400px"
+            android:orientation="vertical"
+            android:background="@drawable/shape_solid_corner">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:gravity="center">
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TextView_Popup_Basic_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="21dp"
+                android:gravity="center">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/shape_solid_corner"
+                android:backgroundTint="#fafafa">
+
+                <TextView
+                    android:id="@+id/TextView_Popup_Basic_Contents"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="16dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="16dp"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:weightSum="100">
+
+                <Button
+                    android:id="@+id/Btn_Popup_Basic_Cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/shape_solid_corner"
+                    android:backgroundTint="@color/colorb8b8b8"
+                    android:text="취소"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+                <LinearLayout
+                    android:layout_width="18dp"
+                    android:layout_height="match_parent"></LinearLayout>
+
+                <Button
+                    android:id="@+id/Btn_Popup_Basic_Confirm"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="50"
+                    android:background="@drawable/shape_solid_corner"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="확인"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:weightSum="100"
+        android:gravity="center"
+        android:elevation="5dp"
+        android:id="@+id/linear_wifi_popup_visible"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="80"
+            android:layout_height="304dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape_solid_corner">
+
+            <LinearLayout android:layout_width="match_parent" android:layout_height="40dp"
+                android:gravity="right"
+                android:weightSum="100">
+                <ImageView android:layout_width="0dp" android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:id="@+id/img_wifi_popup_close"
+                    android:src="@drawable/ic_close"
+                    android:tint="@color/colorBlack"/>
+            </LinearLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/list_wifi"></LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

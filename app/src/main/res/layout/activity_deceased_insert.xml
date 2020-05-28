@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Insert.DeceasedInsertActivity"
+    android:background="@color/colorf2f3fA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="40px"
+        android:orientation="vertical"
+        android:weightSum="1000">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="96">
+            <Button
+                android:id="@+id/btn_deceased_insert_back"
+                android:layout_width="194px"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_btn_back"/>
+
+            <Button
+                android:id="@+id/btn_deceased_insert_save"
+                android:layout_width="194px"
+                android:layout_height="match_parent"
+                android:background="@drawable/ic_btn_save"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="88"
+            android:weightSum="1840">
+
+            <TextView
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="950"
+                android:gravity="center_vertical"
+                android:text="행사정보"
+                android:textColor="@color/colorBlack"
+                android:textSize="20px"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="910px"
+            android:layout_height="0px"
+            android:layout_weight="202"
+            android:background="@drawable/rectangle_stroke_solid_white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20px"
+                android:weightSum="1800">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="162px">
+
+                        <TextView
+                            android:layout_width="88px"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorBlack"
+                            android:text="영정사진"
+                            android:textSize="16px"
+                            android:paddingLeft="17px"
+                            android:paddingTop="6px"/>
+
+                        <LinearLayout
+                            android:layout_width="8px"
+                            android:layout_height="wrap_content"></LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/img_deceased_insert_profile"
+                            android:layout_width="126px"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/ic_no_profile"/>
+
+                        <LinearLayout
+                            android:layout_width="16px"
+                            android:layout_height="wrap_content"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="195px"
+                            android:layout_height="match_parent"
+                            android:weightSum="100"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/btn_deceased_insert_profile_save"
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="50"
+                                android:text="등록"
+                                android:textSize="16px"
+                                android:background="@drawable/retangle_stroke_solid"/>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="18px"></LinearLayout>
+
+                            <Button
+                                android:id="@+id/btn_deceased_insert_profile_remove"
+                                android:layout_width="match_parent"
+                                android:layout_height="0px"
+                                android:layout_weight="50"
+                                android:text="삭제"
+                                android:textSize="16px"
+                                android:background="@drawable/retangle_stroke_solid"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="33px"
+                            android:layout_height="match_parent"></LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center_vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18px"
+                                android:text="[영정사진양식안내]\n규격 : 11R\n가로 - 11인치(28cm)\n세로 - 14인치(36cm)\n파일 : jpg, png 등"
+                                android:textColor="@color/color6d6d6d" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="19px"></LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

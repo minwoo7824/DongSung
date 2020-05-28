@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="100"
+        android:background="@color/colorWhite"
+        android:id="@+id/linear_wifi_list_item_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"></LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp"
+            android:id="@+id/txt_wifi_list_item_ssid"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:src="@mipmap/ic_wifi"
+            android:id="@+id/img_wifi_list_item_level"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_wifi_edit_parent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:weightSum="100"
+        android:visibility="gone">
+        <EditText
+            android:id="@+id/edt_wifi_password"
+            android:layout_width="0px"
+            android:layout_weight="75"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="비밀번호를 입력해주세요."/>
+
+        <LinearLayout
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="10"></LinearLayout>
+
+        <Button
+            android:id="@+id/btn_wifi_done"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:textColor="@color/colorWhite"
+            android:text="확인"
+            android:background="@color/color98c7ff"/>
+    </LinearLayout>
+</LinearLayout>

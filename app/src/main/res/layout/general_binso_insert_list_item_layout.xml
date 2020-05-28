@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="88px"
+        android:weightSum="1840">
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="950"
+            android:gravity="center_vertical"
+            android:text="빈소정보 입력란"
+            android:textColor="@color/colorBlack"
+            android:textSize="20px"/>
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="690"
+            android:gravity="center_vertical"
+            android:text="상주정보"
+            android:textColor="@color/colorBlack"
+            android:textSize="20px"/>
+
+        <Button
+            android:id="@+id/btn_general_binso_insert_list_item_binso_remove"
+            android:layout_width="0px"
+            android:layout_height="48px"
+            android:layout_weight="200"
+            android:layout_gravity="center"
+            android:textSize="18px"
+            android:textColor="@color/colorWhite"
+            android:text="빈소 삭제"
+            android:background="@color/color707070"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="284px"
+        android:background="@drawable/rectangle_stroke_solid_white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20px"
+            android:weightSum="1800">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="890"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36px">
+
+                    <TextView
+                        android:layout_width="88px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorBlack"
+                        android:text="빈소명"
+                        android:gravity="center_vertical"
+                        android:textSize="16px"
+                        android:paddingLeft="17px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_binso_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="빈소명"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="102px"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:text="고인성함"
+                        android:textSize="16px"
+                        android:paddingLeft="41px"
+                        android:paddingTop="6px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_deceased_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="성함"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="16px"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36px">
+
+                    <TextView
+                        android:layout_width="88px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorBlack"
+                        android:text="나이"
+                        android:gravity="center_vertical"
+                        android:textSize="16px"
+                        android:paddingLeft="17px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_deceased_age"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="나이"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="102px"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:text="종교입력"
+                        android:textSize="16px"
+                        android:paddingLeft="41px"
+                        android:paddingTop="6px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_religion"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="종교입력"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="16px"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36px">
+
+                    <TextView
+                        android:layout_width="88px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorBlack"
+                        android:text="직위"
+                        android:gravity="center_vertical"
+                        android:textSize="16px"
+                        android:paddingLeft="17px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_spot"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="직위"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="102px"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorBlack"
+                        android:text="장지명"
+                        android:textSize="16px"
+                        android:paddingLeft="41px"
+                        android:paddingTop="6px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="337px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/retangle_stroke_solid">
+                        <EditText
+                            android:id="@+id/edt_general_binso_insert_list_item_location"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:hint="성남공원"
+                            android:background="@null"
+                            android:textSize="16px"
+                            android:paddingLeft="12px"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="16px"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36px">
+
+                    <TextView
+                        android:layout_width="88px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorBlack"
+                        android:text="입관일시"
+                        android:gravity="center_vertical"
+                        android:textSize="16px"
+                        android:paddingLeft="17px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_entry_year"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/yearSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_entry_month"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/monthSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_entry_day"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/daySpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_entry_hour"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/hourSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_entry_minute"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/minuteSpinnerArray"></Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="16px"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36px">
+
+                    <TextView
+                        android:layout_width="88px"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/colorBlack"
+                        android:text="발인일시"
+                        android:gravity="center_vertical"
+                        android:textSize="16px"
+                        android:paddingLeft="17px"/>
+
+                    <LinearLayout
+                        android:layout_width="8px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_finish_year"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/yearSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_finish_month"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/monthSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_finish_day"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/daySpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_finish_hour"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/hourSpinnerArray"></Spinner>
+
+                    <LinearLayout
+                        android:layout_width="16px"
+                        android:layout_height="match_parent"></LinearLayout>
+
+                    <Spinner
+                        android:id="@+id/spn_general_binso_insert_list_item_finish_minute"
+                        android:layout_width="144px"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/img_spinner_bg"
+                        android:entries="@array/minuteSpinnerArray"></Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="20"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="890">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20px"
+                    android:background="@drawable/retangle_stroke_solid">
+                    <EditText
+                        android:id="@+id/edt_general_binso_insert_list_item_relationship"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:layout_margin="12px"
+                        android:hint="관계 및 상주명"
+                        android:textSize="16px"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

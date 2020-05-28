@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "398010573611",
+    "firebase_url": "https://dongsungtest.firebaseio.com",
+    "project_id": "dongsungtest",
+    "storage_bucket": "dongsungtest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398010573611:android:e87c2508c3f17f3c4fdb6e",
+        "android_client_info": {
+          "package_name": "com.kmw.dongsung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398010573611-lesqdkp5vl3ck0qkj3sn8fski8rhldln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kmw.dongsung",
+            "certificate_hash": "ec14e2ba5fa0376b5aa2748f93ac53dd15fd07bb"
+          }
+        },
+        {
+          "client_id": "398010573611-chobethaq3e3u2crrjgc84ivcdrgj17j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW7JwXxyYXiAHNeQ_eXv2WGqbFbjFhR_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398010573611-chobethaq3e3u2crrjgc84ivcdrgj17j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

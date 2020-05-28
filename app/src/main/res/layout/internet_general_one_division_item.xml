@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1080"
+    android:id="@+id/linear_general_one_division_bg">
+
+    <LinearLayout
+        android:id="@+id/linear_general_one_division_top"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="96">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_one_division_item_bg"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="984">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8px"
+            android:orientation="vertical"
+            android:weightSum="968">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="90"
+                android:weightSum="1904">
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="545">
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_title"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10px"
+                        android:text="특 1호실 (지하2층)"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1360">
+
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_deceased_name"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:layout_width="0px"
+                        android:layout_weight="961"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/colorWhite"
+                        android:text="故 김고인(83세) 집사"
+                        android:paddingLeft="30px"/>
+
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_time"
+                        android:layout_width="0px"
+                        android:layout_weight="250"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:layout_height="match_parent"
+                        android:padding="5px"
+                        android:gravity="center|right"
+                        android:textColor="@color/colorWhite"/>
+
+                    <ImageView
+                        android:id="@+id/img_one_division_item_arrow"
+                        android:layout_width="0px"
+                        android:layout_height="match_parent"
+                        android:layout_weight="120"
+                        android:background="@drawable/shape_radius_one_item"
+                        android:src="@drawable/ic_arrow_up_left"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="8"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="714"
+                android:weightSum="1904">
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="545"
+                    android:weightSum="545"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="0px"
+                        android:layout_weight="505"
+                        android:layout_height="match_parent"
+                        android:weightSum="714"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/img_one_division_item_deceased_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_weight="675"
+                            android:scaleType="fitXY" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1351"
+                    android:orientation="vertical"
+                    android:weightSum="714">
+
+                    <ImageView
+                        android:id="@+id/img_one_division_item_religion_bg1"
+                        android:layout_width="600px"
+                        android:layout_height="480px"
+                        android:scaleType="fitEnd"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentBottom="true"
+                        android:alpha="0.2"
+                        android:layout_marginBottom="10px"
+                        android:layout_marginRight="10px"/>
+
+                    <LinearLayout
+                        android:id="@+id/linear_one_division_item_relation_name_parent"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:weightSum="100"
+                        android:paddingLeft="10px"
+                        android:gravity="center_vertical">
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="8"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="148"
+                android:weightSum="1904">
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="237"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_etc1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"
+                        android:text="입 관"
+                        android:padding="10px"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="8px"></LinearLayout>
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_etc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"
+                        android:text="발 인"
+                        android:padding="10px"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:textColor="@color/colorWhite"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="703"
+                    android:weightSum="2"
+                    android:orientation="vertical">
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_check_in"
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"
+                        android:text="2020년 10월 12일"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:padding="10px"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="8px"></LinearLayout>
+                    <com.kmw.dongsung.Views.FitTextView
+                        android:id="@+id/txt_one_division_item_check_out"
+                        android:layout_width="match_parent"
+                        android:layout_height="0px"
+                        android:layout_weight="1"
+                        android:text="2020년 10월 14일"
+                        android:maxLines="1"
+                        android:includeFontPadding="false"
+                        android:gravity="center"
+                        android:padding="10px"
+                        android:textColor="@color/colorBlack"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></LinearLayout>
+
+                <com.kmw.dongsung.Views.FitTextView
+                    android:id="@+id/txt_one_division_item_etc3"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="237"
+                    android:text="장 지"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/colorWhite"/>
+
+                <LinearLayout
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="8"></LinearLayout>
+
+                <com.kmw.dongsung.Views.FitTextView
+                    android:id="@+id/txt_one_division_item_location"
+                    android:maxLines="2"
+                    android:layout_width="0px"
+                    android:layout_height="match_parent"
+                    android:layout_weight="703"
+                    android:text="성남공원"
+                    android:includeFontPadding="false"
+                    android:textColor="@color/colorBlack"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="48"
+        android:background="@drawable/img_general_bottom_48_bg">
+
+        <com.kmw.dongsung.Views.FitTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/txt_one_division_item_bottom_contents"
+            android:textColor="@color/colorWhite"
+            android:layout_marginLeft="10px"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ModeSelectActivity"
+    android:background="@color/colorf2f3fA">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1080">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="96"
+            android:gravity="center"
+            android:weightSum="1920">
+
+            <Button
+                android:id="@+id/btn_mode_select_binso"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_binso"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_deceased"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_deceased"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_general"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_general"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_entry"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_entry"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="16px"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="96"
+            android:gravity="center"
+            android:weightSum="1920">
+
+            <Button
+                android:id="@+id/btn_mode_select_binso_done"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_activity_select"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_deceased_done"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_activity_select"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_general_done"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_activity_select"/>
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="100"></LinearLayout>
+
+            <Button
+                android:id="@+id/btn_mode_select_entry_done"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="194"
+                android:background="@drawable/ic_btn_activity_select"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_mode_select_back"
+        android:layout_width="194px"
+        android:layout_height="96px"
+        android:background="@drawable/ic_btn_back"
+        android:layout_marginTop="40px"
+        android:layout_marginLeft="40px" />
+</RelativeLayout>
